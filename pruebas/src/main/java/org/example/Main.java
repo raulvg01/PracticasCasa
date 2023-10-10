@@ -14,6 +14,8 @@ public class Main {
         System.out.println("¿Cuál es tu edad?");
         int age = scanner.nextInt();
         System.out.println("Tu edad es " + age + " años");
+
+        System.out.println("Hoy es: " + LocalDate.now());
     }
 
 
