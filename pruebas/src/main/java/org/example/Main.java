@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Tu edad es " + age + " años");
 
         System.out.println("Hoy es: " + LocalDate.now());
+        scanner.close();
     }
 
 
